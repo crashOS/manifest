@@ -13,9 +13,9 @@
            sync-j="1" />
            
   <!-- forked repos -->
-  <project path="frameworks/base" name="platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="crashos" revision="nougat-x86" />
-  <project path="frameworks/native" name="platform_frameworks_native" groups="pdk" remote="crashos" revision="nougat-x86" />
-  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" groups="pdk-fs" remote="crashos" revision="nougat-x86" />
+  <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs" remote="crashos" revision="nougat-x86" />
+  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" remote="crashos" revision="nougat-x86" />
+  <project path="packages/apps/Settings" name="platform/packages/apps_Settings" groups="pdk-fs" remote="crashos" revision="nougat-x86" />
 
   <!-- from x86 port repositories -->
   <project path="build" name="platform/build" groups="pdk,tradefed" remote="x86" revision="nougat-x86" >
@@ -55,8 +55,6 @@
   <project path="external/v86d" name="platform/external/v86d" remote="x86" revision="nougat-x86" />
   <project path="external/swiftshader" name="platform/external/swiftshader" remote="x86" revision="nougat-x86" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" remote="x86" revision="nougat-x86" />
-  <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs" remote="x86" revision="nougat-x86" />
-  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" remote="x86" revision="nougat-x86" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="pdk,broadcom_wlan" remote="x86" revision="nougat-x86" />
   <project path="hardware/gps" name="platform/hardware/gps" remote="x86" revision="nougat-x86" />
   <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel,pdk" remote="x86" revision="nougat-x86" />
@@ -75,7 +73,6 @@
   <project path="packages/apps/Eleven" name="platform/packages/apps/Eleven" remote="x86" revision="nougat-x86" />
   <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" groups="pdk-fs" remote="x86" revision="nougat-x86" />
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" groups="pdk-fs" remote="x86" revision="nougat-x86" />
-  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" groups="pdk-fs" remote="x86" revision="nougat-x86" />
   <project path="packages/apps/TSCalibration2" name="platform/packages/apps/TSCalibration2" remote="x86" revision="nougat-x86" />
   <project path="packages/apps/Taskbar" name="platform/packages/apps/Taskbar" remote="x86" revision="nougat-x86" />
   <project path="packages/services/Analytics" name="platform/packages/services/Analytics" remote="x86" revision="nougat-x86" />
