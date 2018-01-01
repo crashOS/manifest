@@ -13,9 +13,9 @@
            sync-j="1" />
            
   <!-- forked repos -->
-  <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs" remote="crashos" revision="nougat-x86" />
-  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" remote="crashos" revision="nougat-x86" />
-  <project path="packages/apps/Settings" name="platform/packages/apps_Settings" groups="pdk-fs" remote="crashos" revision="nougat-x86" />
+  <project path="frameworks/base" name="frameworks-base" groups="pdk-cw-fs,pdk-fs" remote="crashos" revision="crashOS-N" />
+  <project path="frameworks/native" name="frameworks-native" groups="pdk" remote="crashos" revision="crashOS-N" />
+  <project path="packages/apps/Settings" name="packages-apps-Settings" groups="pdk-fs" remote="crashos" revision="crashOS-N" />
 
   <!-- from x86 port repositories -->
   <project path="build" name="platform/build" groups="pdk,tradefed" remote="x86" revision="nougat-x86" >
