@@ -12,10 +12,10 @@
   <project path="frameworks/base" name="frameworks-base" groups="pdk-cw-fs,pdk-fs" remote="crashos" revision="crashOS-N" />
   <project path="frameworks/native" name="frameworks-native" groups="pdk" remote="crashos" revision="crashOS-N" />
   <project path="packages/apps/Settings" name="packages-apps-Settings" groups="pdk-fs" remote="crashos" revision="crashOS-N" />
+  <project path="device/generic/common" name="device-generic-common" remote="crashos" upstream="crashOS-N" groups="pdk" />
 
   <!-- from x86 port repositories -->
   <project groups="pdk-cw-fs,pdk" name="device/common" revision="d49a18a17d624b41bcf79ad972ebfdb93f4c2045" upstream="refs/tags/android-7.1.2_r36"/>
-  <project groups="pdk" name="device/generic/common" remote="x86" revision="9d41d263564de7548b7f24fba028909199773485" upstream="nougat-x86"/>
   <project name="device/generic/firmware" remote="x86" revision="8b0fe89ed700a5a2914a57fe2f30263607f82ac1" upstream="nougat-x86"/>
   <project groups="pdk" name="device/generic/x86" remote="x86" revision="4eda918af9f3dbcee473ff927442edfbe7e005ad" upstream="nougat-x86"/>
   <project groups="pdk" name="device/generic/x86_64" remote="x86" revision="7b486dd2eea55b5dc569205e1fbab20a5c73ce9a" upstream="nougat-x86"/>
