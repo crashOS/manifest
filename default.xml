@@ -12,7 +12,7 @@
   <project path="frameworks/base" name="frameworks-base" groups="pdk-cw-fs,pdk-fs" remote="crashos" revision="crashOS-N" />
   <project path="frameworks/native" name="frameworks-native" groups="pdk" remote="crashos" revision="crashOS-N" />
   <project path="packages/apps/Settings" name="packages-apps-Settings" groups="pdk-fs" remote="crashos" revision="crashOS-N" />
-  <project path="device/generic/common" name="device-generic-common" remote="crashos" upstream="crashOS-N" groups="pdk" />
+  <project name="device-generic-common" path="device/generic/common" remote="crashos" upstream="crashOS-N" groups="pdk" revision="b4ec1b3eb08e004454bffd6462517a090f4d6c0f" />
 
   <!-- from x86 port repositories -->
   <project groups="pdk-cw-fs,pdk" name="device/common" revision="d49a18a17d624b41bcf79ad972ebfdb93f4c2045" upstream="refs/tags/android-7.1.2_r36"/>
